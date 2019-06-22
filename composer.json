@@ -16,5 +16,10 @@
     },
     "extra": {
         "class": "Packagistkr\\Notification\\Plugin"
+    },
+    "license": "MIT",
+    "support": {
+        "issues": "https://github.com/packagistkr/notification-plugin/issues"
     }
+
 }
