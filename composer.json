@@ -1,0 +1,20 @@
+{
+    "name": "packagistkr/notification-plugin",
+    "type": "composer-plugin",
+    "require": {
+        "ext-curl": "*",
+        "ext-json": "*",
+        "composer-plugin-api": "^1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Packagistkr\\Notification\\": "src/"
+        }
+    },
+    "require-dev": {
+        "composer/composer": "^1.8"
+    },
+    "extra": {
+        "class": "Packagistkr\\Notification\\Plugin"
+    }
+}
